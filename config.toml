@@ -1,0 +1,77 @@
+baseURL = "https://yjiangc.github.io"
+languageCode = "en-us"
+title = "Yan Jiang"
+theme = "hugo-digital-garden-theme"
+themesdir = "./themes"
+copyright = "Yan Jiang©"
+
+
+[params]
+  [[params.social]]
+    name = "Google"
+    link = "https://scholar.google.com/citations?user=0VPzQ-MAAAAJ&hl=en"
+    icon = "fab fa-google"
+  [[params.social]]
+    name = "ORCID"
+    link = "https://orcid.org/my-orcid?orcid=0000-0002-1472-2288"
+    icon = "fab fa-orcid"
+  [[params.social]]
+    name = "Researchgate"
+    link = "https://www.researchgate.net/"
+    icon = "fab fa-researchgate"
+  [[params.social]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/feed/"
+    icon = "fab fa-linkedin-in"
+  [[params.social]]
+    name = "Github"
+    link = "https://github.com/yjiangc"
+    icon = "fab fa-github"
+  [[params.social]]
+    name = "Medium" 
+    link = "https://medium.com/@jiangy810"
+    icon = "fab fa-medium-m"
+  [[params.social]]
+    name = "Twitter"
+    link = "https://twitter.com/YanJiang_yj"
+    icon = "fab fa-twitter"
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"#setting as homepage
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+  [[menu.main]]
+    name = "Resume/CV"
+    url = "/cv/"
+    weight = 4
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+  library_tags = 'library_tags'
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'
