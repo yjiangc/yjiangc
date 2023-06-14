@@ -2,8 +2,9 @@ baseURL = "https://yjiangc.github.io"
 languageCode = "en-us"
 title = "Yan Jiang"
 theme = "hugo-digital-garden-theme"
+enableInlineShortcodes = true
 themesdir = "./themes"
-copyright = "Yan Jiang©"
+copyright = "Yan Jiang"
 
 
 [params]
