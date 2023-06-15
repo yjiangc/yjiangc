@@ -1,1 +1,1 @@
-[Full CV]('./cv/CV_062023.pdf')
+{{< embed-pdf url="./cv/CV_062023.pdf" >}}
