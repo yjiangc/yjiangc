@@ -1,1 +1,0 @@
-{{< embed-pdf url="./cv/CV_062023.pdf" >}}
